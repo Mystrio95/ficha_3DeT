@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha 3D&T - Senhor dos Anéis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="ficha">
+            <div class="rune rune-tl">ᚷ</div>
+            <div class="rune rune-tr">ᛞ</div>
+            <div class="rune rune-bl">ᚢ</div>
+            <div class="rune rune-br">ᛖ</div>
+            
+            <div class="header">
+                <div class="title">FICHA DO PORTADOR</div>
+                <div class="ring">ᛟ</div>
+            </div>
+            
+            <div class="content">
+                <!-- Seção Identificação -->
+                <div class="section">
+                    <h2 class="section-title">IDENTIFICAÇÃO</h2>
+                    <div class="form-group">
+                        <label for="nome">Nome do Personagem</label>
+                        <input type="text" id="nome" value="Aragorn II Elessar">
+                    </div>
+                    <div class="form-group">
+                        <label for="raca">Raça</label>
+                        <select id="raca">
+                            <option>Humano</option>
+                            <option>Elfo</option>
+                            <option>Anão</option>
+                            <option>Hobbit</option>
+                            <option>Orc</option>
+                            <option>Ent</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="origem">Origem</label>
+                        <input type="text" id="origem" value="Reino de Gondor">
+                    </div>
+                    <div class="form-group">
+                        <label for="classe">Classe</label>
+                        <input type="text" id="classe" value="Guerreiro/Ranger">
+                    </div>
+                    <div class="form-group">
+                        <label for="nivel">Nível</label>
+                        <input type="number" id="nivel" value="8" min="1" max="20">
+                    </div>
+                    <div class="form-group">
+                        <label for="jogador">Jogador</label>
+                        <input type="text" id="jogador" value="Frodo Baggins">
+                    </div>
+                </div>
+                
+                <!-- Seção Atributos -->
+                <div class="section">
+                    <h2 class="section-title">ATRIBUTOS</h2>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <label>FORÇA (F)</label>
+                            <div class="stat-value">6</div>
+                        </div>
+                        <div class="stat-box">
+                            <label>HABILIDADE (H)</label>
+                            <div class="stat-value">7</div>
+                        </div>
+                        <div class="stat-box">
+                            <label>ENERGIA (E)</label>
+                            <div class="stat-value">5</div>
+                        </div>
+                        <div class="stat-box">
+                            <label>ARMADURA (A)</label>
+                            <div class="stat-value">4</div>
+                        </div>
+                        <div class="stat-box">
+                            <label>PONTOS DE VIDA (PV)</label>
+                            <div class="stat-value">35</div>
+                        </div>
+                        <div class="stat-box">
+                            <label>PONTOS DE MAGIA (PM)</label>
+                            <div class="stat-value">12</div>
+                        </div>
+                        <div class="stat-box">
+                            <label>PONTOS DE DEFESA (PD)</label>
+                            <div class="stat-value">8</div>
+                        </div>
+                        <div class="stat-box">
+                            <label>PONTOS DE EXPERIÊNCIA</label>
+                            <div class="stat-value">2800</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Seção Habilidades -->
+                <div class="section">
+                    <h2 class="section-title">HABILIDADES</h2>
+                    <ul class="skills-list">
+                        <li>
+                            <span>Mestre Espadachim</span>
+                            <span>+3</span>
+                        </li>
+                        <li>
+                            <span>Rastreamento</span>
+                            <span>+4</span>
+                        </li>
+                        <li>
+                            <span>Cura Básica</span>
+                            <span>+2</span>
+                        </li>
+                        <li>
+                            <span>Liderança</span>
+                            <span>+3</span>
+                        </li>
+                        <li>
+                            <span>Conhecimento de Heráldica</span>
+                            <span>+4</span>
+                        </li>
+                        <li>
+                            <span>Resistência à Fadiga</span>
+                            <span>+3</span>
+                        </li>
+                        <li>
+                            <span>Idiomas (Élfico, Orc)</span>
+                            <span>+3</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Seção Equipamentos -->
+                <div class="section">
+                    <h2 class="section-title">EQUIPAMENTOS</h2>
+                    <div class="equipment-item">
+                        <i class="fas fa-sword"></i>
+                        <span>Andúril - Espada Flamejante (Dano: 2d6+3)</span>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Escudo de Gondor (Defesa +2)</span>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-vest"></i>
+                        <span>Armadura de Mithril (Defesa +4)</span>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-ring"></i>
+                        <span>Anel de Barahir (Proteção contra magia)</span>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-gem"></i>
+                        <span>Pedra de Orthanc (Comunicação)</span>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-horse"></i>
+                        <span>Cavalo Brego (Velocidade +4)</span>
+                    </div>
+                    <div class="equipment-item">
+                        <i class="fas fa-bottle-droplet"></i>
+                        <span>Poção de Cura (3 doses)</span>
+                    </div>
+                </div>
+                
+                <!-- Seção História -->
+                <div class="section full-width">
+                    <h2 class="section-title">HISTÓRIA DO PERSONAGEM</h2>
+                    <div class="form-group">
+                        <textarea id="historia">Herdeiro de Isildur e legítimo rei de Gondor. Criado em Valfenda pelos elfos com o nome de "Criador". Durante décadas protegeu as fronteiras do norte como um dos Dúnedain. Guiou a Sociedade do Anel após a queda de Gandalf. Reuniu o exército dos mortos para a Batalha dos Campos de Pelennor. Rei Elessar Telcontar, restaurador do reino unificado de Gondor e Arnor.</textarea>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn-save">SALVAR FICHA</button>
+        </div>
+    </div>
+</body>
+</html>
